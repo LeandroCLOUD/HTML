@@ -56,9 +56,10 @@ section.imagem {
     color: white;
 
 }
-section.imagem > p {
+
+section.imagem>p {
     width: 400px;
-    background-color: rgb(17, 17, 17) ;
+    background-color: rgb(17, 17, 17);
 }
 
 footer {
