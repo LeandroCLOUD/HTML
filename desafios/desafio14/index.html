@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 14</title>
+    <link rel="shortcut icon" href="pacote-d013/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(240, 147, 80, 0.5);
+
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            background-color: rgb(214, 111, 37);
+            margin: auto;
+            margin-bottom: -1px;
+            margin-top: -8px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        h1:hover {
+            color: maroon;
+            text-decoration: line-through;
+        }
+
+        main {
+            margin: auto;
+            width: 600px;
+            height: auto;
+            background-color: wheat;
+            padding-top: auto;
+
+        }
+
+        table {
+            
+            text-align: center;
+            border-spacing: 1px 1px;
+
+        }
+
+        td {
+            border: 1px solid black;
+            height: 50px;
+            width: 150px;
+            border-radius: 5px;
+        }
+
+        td:hover {
+            background-color: rgb(245, 162, 10);
+            cursor: pointer;
+            color: white;
+            font-style: oblique;
+
+        }
+
+        td:active {
+            transform: scale(97%);
+
+        }
+
+        th {
+            border: 1px solid black;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+        th:hover {
+            background-color: rgb(245, 162, 10);
+            cursor: pointer;
+            color: white;
+            font-style: oblique;
+        }
+
+        th:active {
+            transform: scale(97%);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Desafio 14</h1>
+        <table>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Claudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td>Intocaveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Star WArs 5</td>
+                <td>Taxi Driver</td>
+                <td>Toy Story</td>
+            </tr>
+        </table>
+    </main>
+</body>
+
+</html>

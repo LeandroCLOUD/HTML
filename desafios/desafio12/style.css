@@ -95,6 +95,8 @@ section.imagem {
 }
 
 section.imagem>p {
+    width: 400px;
+    background-color: rgb(17, 17, 17);
     padding: 10px;
     display: inline-block;
     background-color: rgba(63, 62, 62, 0.459);
