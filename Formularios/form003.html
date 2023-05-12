@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        body {
+            background-color: beige;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h1>Teste Formulario</h1>
+        <form action="cadastro.php" method="get" autocomplete="off">
+            <p>
+                <label for="inome"><strong>Nome</strong>:</label>
+                <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo"
+                    autocomplete="off">
+            </p>
+            <p style="margin-left:-96px ;">
+                <label for="imedia"><strong>Média</strong>:</label>
+                <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.1">
+            </p>
+            <p style="margin-left: -74px;">
+                <label for="idata"><strong>Data</strong></label>
+                <input type="date" name="data" id="idata">
+            </p>
+            <p style="margin-left: -113px;">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
