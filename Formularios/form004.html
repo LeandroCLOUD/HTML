@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .f1{
+            width: 300px;
+        }
+        .f2{
+            width: 300px;
+            
+        }
+        form{
+   
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="" method="get" autocomplete="off">
+        <fieldset class="f1">
+            <legend>Sexo</legend>
+            <input type="radio" name="Sexo" id="isxmas" value="M"> <label for="isxmas">Masculino <br></label>
+            <input type="radio" name="Sexo" id="isxfem" value="F"> <label for="isxfem">Feminino <br></label>
+        </fieldset>
+        <fieldset class="f2">
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label> <br>
+            <input type="checkbox" name="esgol" id="iesgol"> <label for="iesgol">Golf</label> <br>
+            <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label> <br>
+        </fieldset>
+        <p>
+
+
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+
+</html>
